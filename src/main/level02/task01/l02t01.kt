@@ -6,3 +6,18 @@ package main.level02.task01
 Нужно написать тело существующей функции min и исправить возвращаемое значение.
 */
 
+val a = 12
+val b = 10
+
+fun min2(a:Int, b:Int){
+    if (a<b){
+        println("Минимальное число $a")
+    } else {
+        println("Минимальное число $b")
+    }
+}
+
+
+fun main(){
+    min2(a, b)
+}
